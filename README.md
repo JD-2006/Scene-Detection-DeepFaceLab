@@ -9,3 +9,5 @@ python Scene-Detect-CV2.py 10 "I:\DeepFaceLab_NVIDIA_up_to_RTX2080Ti\workspace\d
 Scene-Detect-Hash.py analyzes a folder containing image frames, employing perceptual hashing to detect significant scene changes. It computes hash differences between consecutive frames and identifies frames with differences surpassing a specified threshold. The user can set the threshold, the number of significant changes to detect, and provide the path to the folder containing the image frames through command-line arguments. The script then outputs the filenames of the most significant scene changes, or a message if none are found.
 
 python Scene-Detect-Hash.py 14 10 "I:\DeepFaceLab_NVIDIA_up_to_RTX2080Ti\workspace\data_dst\aligned"
+
+I usually Xseg a frame before and the recommended frame.
